@@ -1,0 +1,551 @@
+
+
+
+@font-face {
+    font-family: 'Fira-Sans-Regular';
+    src: url('../fonts/FiraSans-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Fira-Sans-Medium';
+    src: url('../fonts/FiraSans-Medium.ttf');
+    font-weight:500 ;
+}
+
+@font-face {
+    font-family: 'Fira-Sans-SemiBold';
+    src: url('../fonts/FiraSans-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Fira-Sans-Bold';
+    src: url('../fonts/FiraSans-Bold.ttf');
+    font-weight:700 ;
+}
+
+@font-face {
+    font-family: 'Josefin-Sans-Medium';
+    src: url('../fonts/JosefinSans-Medium.ttf');
+    font-weight: 500;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background: inherit;
+    color: inherit;
+    outline: none;
+    list-style: none;
+    border: none;
+
+}
+
+
+
+.header{
+    font-family: 'Fira-Sans-Medium';
+    padding: 25px;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+.nav-collapse{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.navbar{
+    display: flex;
+text-align: center;
+gap: 50px;
+}
+
+
+
+
+.nav-link:hover{
+    transition: 0.5s;
+    color:#FF7143;
+    
+}
+
+.nav-btn-block{
+display: flex;
+align-items: center;
+gap: 30px;
+
+}
+
+
+.nav-button{
+border-radius: 25px;
+background: black;
+color: white;
+padding: 19px 55px;
+font-family: 'Fira-Sans-Medium';
+
+}
+.nav-button:active{
+    background: green;
+
+}
+
+.nav-button:hover{
+    background:#FF7143;
+   color: black;
+    transition: 0.5s;
+}
+
+.hamburger{
+    display: none;
+}
+
+
+
+
+
+
+
+.banner-block{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.banner-text{
+    max-width: 550px;
+
+}
+
+.banner-text h2{
+    font-family: 'Josefin-Sans-Medium';
+    font-size: 45px;
+    padding: 10px;
+}
+
+.banner-text p{
+    font-family: 'Fira-Sans-Medium';
+    font-size: 17px;
+    padding: 5px;
+
+}
+
+
+.local{
+    font-family: 'Fira-Sans-Medium';
+    color: #FF7143;
+
+}
+
+.banner-img{
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+.reviews-block-title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Josefin-Sans-Medium';
+    font-size: 45px;
+    padding-top: 80px;
+}
+
+.slideshow-container {
+    position: relative;
+
+  }
+
+  .mySlides {
+    display: none;
+    padding: 40px;
+    padding-top: 80px;
+    text-align: center;
+    font-family: 'Fira-Sans-Regular';
+    color: #FF7143;
+  }
+
+  
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    transition: 0.5s;
+
+  }
+
+  .author{
+    padding-top: 25px;
+    padding-bottom: none;
+  }
+ 
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+
+  .dot-container {
+    text-align: center; 
+    padding: 20px;
+ background:white;
+  }
+  
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.6s ease;
+  }
+  
+
+  .active, .dot:hover {
+    background-color: #FF7143;
+  }
+  
+
+  q {font-style: italic;}
+  .author {color: black;
+}
+
+
+.mySlides q{
+    padding-left:10px ;
+    padding-right: 10px;
+}
+
+
+
+
+.company-logo-title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Fira-Sans-Medium';
+    font-size: 45px;
+    padding-bottom: 30px;
+    padding-top: 90px;
+
+}
+
+.company-card-logo{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    }
+
+    
+    
+    .logo-img{
+        padding: 15px;
+        transition: 0.5s;
+        border-radius: 20px;
+    }
+    
+    .logo-img:hover{
+    box-shadow: 10px 10px 10px 10px black;
+    }
+
+
+
+
+
+
+
+
+    .card-block-title{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        font-family: 'Fira-Sans-Medium';
+        font-size: 45px;
+        padding-bottom: 30px;
+        padding-top: 90px;
+    }
+
+    
+    .card h1{
+        text-align: center;
+        color: #4181ee;
+    }
+
+    .card-block{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+
+    .card{
+        max-width: 300px;
+         min-height: 250px;
+         background: black;
+         padding: 30px;
+         box-sizing: border-box;
+         color: #FFF;
+         margin:20px;
+         box-shadow: 0px 2px 18px -4px rgba(0,0,0,0.75);
+         transition: transform 0.5s;
+         border-radius: 10px;
+        }
+    
+        .card:hover {
+          transform: scale(1.1);
+        }
+    
+
+
+    .card:hover{
+        background:#FF7143;
+        color: black;
+    }
+     
+     .card-title{
+         margin-top: 0;
+         font-size: 16px;
+         font-weight: 600;
+         letter-spacing: 1.2px;
+         font-family: 'Fira-Sans-Medium';
+         padding-bottom: 10px;
+    }
+     .card-content{
+         font-size: 14px;
+         letter-spacing: 0.5px;
+         line-height: 1.5;
+         font-family: 'Fira-Sans-Medium';
+         padding-bottom: 10px;
+    }
+     .card-btn{
+         all: unset;
+         display: block;
+         margin-left: auto;
+         border: 2px solid #FFF;
+         padding: 10px 15px;
+         border-radius: 25px;
+         font-size: 10px;
+         font-weight: 600;
+         transition: all 0.5s;
+         cursor: pointer;
+         letter-spacing: 1.2px;
+         transition: 0.5s;
+         font-family: 'Fira-Sans-Medium';
+    }
+     .card-btn:hover{
+        color: #FF7143;
+        background:black ;
+    }
+     
+    
+
+
+
+
+
+
+    .img-footer-logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width:100px;
+        height: 100px;
+        padding-top: 50px;
+
+
+    }
+
+    .footer-text{
+        font-family: 'Fira-Sans-Medium';
+        font-size: 30px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+
+    .footer-link{
+        transition: 0.5s;
+    }
+
+    .footer-link:hover{
+        color: #FF7143;
+    }
+
+    .social-network-img{
+        max-width: 45px;
+    }
+
+    .social-network{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 25px;
+        padding: 25px;
+    }
+    
+
+
+
+
+
+
+
+    .footer{
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+        padding-top: 70px;
+        background: black;
+        color: white;
+        padding-bottom: 20px;
+    }
+
+
+    .footer-nav{
+        display: flex;
+        text-align: center;
+        gap: 20px;
+        font-family: 'Fira-Sans-Medium';
+
+    }
+
+    .footer-gmail{
+        font-family: 'Josefin-Sans-Medium';
+    }
+
+
+@media  screen and (max-width:720px) {
+
+    .hamburger{
+        display: flex;
+        padding: 20px;
+        
+    }
+
+    .logo{
+        padding: 30px;
+
+    }
+    .header{
+        padding: 20px;
+    }
+    .nav-collapse{
+        flex-direction: column;
+        padding-top: 0;
+        padding-bottom: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: .6s all;
+    }
+
+    .nav-collapse.is-active{
+        max-height: 600px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        height: 100%;
+    
+    }
+
+    .navbar{
+        flex-direction: column;
+        margin-left: 0;
+        padding: 40px;
+    }
+    .nav-btn-block{
+      flex-direction: column;
+    }
+    
+
+
+
+
+
+
+
+    .banner-block{
+        flex-direction: column;
+    }
+
+    .banner-text{
+        padding: 45px;
+        flex-direction: column;
+
+    }
+
+
+
+
+
+    .company-card-logo{
+        flex-wrap: wrap;
+        
+    }
+
+    .logo-img{
+
+        padding: 30px;
+    }
+
+
+
+
+    .card-block{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+    }
+
+    .footer{
+        flex-direction: column;
+    }
+    
+    .footer-nav{
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    
+}
